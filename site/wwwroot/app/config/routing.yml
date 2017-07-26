@@ -1,0 +1,7 @@
+c10_agora:
+    resource: "@C10AgoraBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
